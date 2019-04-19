@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+issuer: UPC Polska Sp. z o.o.
+fields:
+    amount: Razem do zapłaty\s+(\d+[,.]\d*)
+    date: z dnia\s*(\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|\d{2,4}[./-]\d{1,2}[./-]\d{1,2})
+    invoice_number: Rozliczenie nr\s*([a-zA-Z0-9\/]+)
+    payment_dedline: płatne do:\s*(\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|\d{2,4}[./-]\d{1,2}[./-]\d{1,2})
+keywords:
+  - UPC Polska
+options:
+  currency: PLN
+  date_formats:
+    - '%d.%m.%y'
+  decimal_separator: ','
