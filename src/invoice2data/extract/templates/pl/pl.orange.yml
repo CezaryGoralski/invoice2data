@@ -2,7 +2,7 @@
 issuer: Orange Polska S.A.
 fields:
     amount: aty \s+(\d+[,.]\d*)
-    static_date: 22/07/1991
+    date: wystawienia faktury:\s*(.*)\n
     invoice_number: nr fakt\s*([a-zA-Z0-9\/]+)
     deadline: Zapłać do:\s*(\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|\d{2,4}[./-]\d{1,2}[./-]\d{1,2})
     buyer: Nabywca:\s+(\w+\s+\w+)
