@@ -11,6 +11,8 @@ keywords:
   - innogy Polska
 options:
   currency: PLN
+  languages:
+    - pl
   date_formats:
-    - '%d.%m.%y'
+    - '%d.%B.%y'
   decimal_separator: ','
