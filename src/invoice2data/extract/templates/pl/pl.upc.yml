@@ -5,7 +5,7 @@ fields:
     date: z dnia\s*(\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|\d{2,4}[./-]\d{1,2}[./-]\d{1,2})
     invoice_number: Rozliczenie nr\s*([a-zA-Z0-9\/]+)
     deadline: Termin płatności bieżących naliczeń:\s*(\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|\d{2,4}[./-]\d{1,2}[./-]\d{1,2})
-    buyer: Sprzedawca:\s*\n*(\w+\s+\w+)
+    buyer: \s+\d+[,.]\d*\ -\s*\n*(\w+\s+\w+)
 keywords:
   - UPC Polska
 options:
